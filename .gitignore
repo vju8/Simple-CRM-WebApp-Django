@@ -1,0 +1,29 @@
+# Ignore compiled bytecode
+__pycache__/
+
+# Ignore environment variable files
+.env
+
+# Ignore database and SQL dump files
+*.sql
+
+# Ignore logs and error reports
+*.log
+
+# Ignore virtual environments
+venv/
+.env/
+.Python
+
+# Ignore Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore operating system files
+Thumbs.db  # Windows
