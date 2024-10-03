@@ -126,6 +126,14 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# Path for global static files 
+STATICFILES_DIRS = [
+    BASE_DIR / "static",  # Assuming you're using Django 3.1+ with pathlib
+]
+
+# This is where Django will collect static files when you run `collectstatic`
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
